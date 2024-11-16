@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="manage_your_passwords_securely">Manage Your Passwords Securely</string>
+    <string name="onboarding_title">Manage Your Passwords Securely</string>
+    <string name="onboarding_message">Store your passwords securely and access them\neasily from your mobile device</string>
+    <string name="onboarding_button_title">Get Started</string>
+    <string name="onboarding_already_account">I have already account!</string>
+    <string name="login">Login</string>
 </resources>
