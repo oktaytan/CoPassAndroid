@@ -1,12 +1,24 @@
 <resources>
     <string name="app_name">CoPass</string>
+
+    // Onboarding
     <string name="onboarding_title">Manage Your Passwords Securely</string>
     <string name="onboarding_message">Store your passwords securely and access them\neasily from your mobile device</string>
     <string name="onboarding_button_title">Get Started</string>
     <string name="onboarding_already_account">I have already account!</string>
     <string name="login">Login</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="register">Register</string>
+
+    // Register
+    <string name="register_title">Set with your\nmaster password</string>
+    <string name="register_message">Enter your username and your master password that will ensure your security while entering the application.</string>
+    <string name="username_hint">User name</string>
+    <string name="email_hint">E-mail</string>
+    <string name="master_password_hint">Master Password</string>
+    <string name="remaster_password_hint">Re-master password</string>
+    <string name="blank_field_warning">This field cannot be empty</string>
+    <string name="invalid_username_warning">Must be at least 4 characters</string>
+    <string name="invalid_email_warning">Invalid email</string>
+    <string name="invalid_password_warning">Invalid password</string>
+    <string name="unMatch_password_warning">Passwords do not match</string>
 </resources>

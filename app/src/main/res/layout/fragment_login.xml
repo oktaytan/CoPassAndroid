@@ -7,7 +7,7 @@
     tools:context=".screens.login.LoginFragment">
 
     <include
-        android:id="@+id/include"
+        android:id="@+id/loginNavbar"
         layout="@layout/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

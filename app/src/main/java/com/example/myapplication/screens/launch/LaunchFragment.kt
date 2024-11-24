@@ -22,7 +22,7 @@ class LaunchFragment : BaseFragment() {
 
         binding = FragmentLaunchBinding.inflate(layoutInflater)
 
-        binding.registerBtn.setOnClickListener {
+        binding.getStartedBtn.setOnClickListener {
             NavigationManager.navigate(Destination.REGISTER)
         }
 

@@ -19,7 +19,8 @@ class LoginFragment : BaseFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FragmentLoginBinding.inflate(layoutInflater)
-        binding.include.backArrow.setOnClickListener {
+        binding.loginNavbar.screenTitle.setText(R.string.login)
+        binding.loginNavbar.backArrow.setOnClickListener {
             back()
         }
     }
@@ -27,7 +28,7 @@ class LoginFragment : BaseFragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         return binding.root
     }

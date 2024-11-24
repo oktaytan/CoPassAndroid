@@ -12,8 +12,8 @@ open class BaseFragment: Fragment() {
         super.onCreate(savedInstanceState)
 
         val inflater = TransitionInflater.from(requireContext())
-        enterTransition = inflater.inflateTransition(R.transition.slide_in)
-        exitTransition = inflater.inflateTransition(R.transition.slide_out)
+        enterTransition = inflater.inflateTransition(R.transition.slide)
+        exitTransition = inflater.inflateTransition(R.transition.fade)
     }
 
     public fun back() {
